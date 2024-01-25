@@ -1,5 +1,7 @@
 # Spine Segmentation Training and Prediction
 
+This project follows the binary segmentation example of Sathieshes fastMONAI notebook.
+
 Setup a data folder with volumetric image files and matching volumetric (binary) label files:
 
 ```{bash}

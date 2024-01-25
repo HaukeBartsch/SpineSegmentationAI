@@ -62,7 +62,7 @@ The models folder can remain empty, only after the model training we expect file
 
 The above setup is usually done using manual segmentation on a few datasets. Here we have 131, but even 10 datasets might be sufficient for an initial training procedure. Once we train our first model we will use it and obtain additional training data for a second iteration of our model training. Once we are happy with the performance of a model we will keep using it.
 
-For this workflow I am using 3D Slicer. A script !(slicer.sh)[slicer.sh] is used to open up a training image and label pair. After manually editing the label is saved again in the labelsTr folder using the same filename. We can call the slicer.sh script using a number representing the training row in the dataset.json:
+For this workflow I am using 3D Slicer. A script [slicer.sh](slicer.sh) is used to open up a training image and label pair. After manually editing the label is saved again in the labelsTr folder using the same filename. We can call the slicer.sh script using a number representing the training row in the dataset.json:
 
 ```{bash}
 ./slicer.sh 0
@@ -74,4 +74,4 @@ Note: After editing the label file (Segmentation Editor) you may need to convert
 
 ## Training
 
-Use the ![SpineSegmentation.ipynb](SpineSegmentation.ipynb) notebook to train the model.
+Use the [SpineSegmentation.ipynb](SpineSegmentation.ipynb) notebook to train the model.

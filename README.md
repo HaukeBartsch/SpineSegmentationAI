@@ -1,6 +1,6 @@
 # Spine Segmentation Training and Prediction
 
-This project follows the binary segmentation example of Sathieshes fastMONAI notebook.
+This project follows the binary segmentation example of Sathieshes fastMONAI notebook (Kaliyugarasan, S., & Lundervold, A. S. (2023). fastMONAI: A low-code deep learning library for medical image analysis. Software Impacts. https://doi.org/10.1016/j.simpa.2023.100583).
 
 Setup a data folder with volumetric image files and matching volumetric (binary) label files:
 
